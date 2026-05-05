@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Focus Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Focus & Distraction Tracker</h1>
+
+  <!-- task input -->
+  <div class="task-box">
+    <input type="text" id="taskInput" placeholder="write your task here...">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <!-- timer -->
+  <div class="timer-box">
+    <h2 id="time">00:00</h2>
+
+    <button onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="saveSession()">Save</button>
+  </div>
+
+  <!-- distraction section -->
+  <div class="distraction-box">
+    <h3>Distractions</h3>
+    <p>Total: <span id="distractionCount">0</span></p>
+    <button onclick="addDistraction()">I got distracted 😅</button>
+  </div>
+
+  <!-- report -->
+  <div class="report-box">
+    <h3>Report</h3>
+    <p id="totalTime">Total time: 0 min</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
