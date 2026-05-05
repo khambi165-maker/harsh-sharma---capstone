@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  text-align: center;
+}
+
+h1 {
+  background: #333;
+  color: white;
+  padding: 12px;
+}
+
+.task-box {
+  margin-top: 20px;
+}
+
+input {
+  padding: 7px;
+  width: 200px;
+}
+
+button {
+  padding: 7px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.timer-box {
+  margin-top: 25px;
+}
+
+.distraction-box {
+  margin-top: 20px;
+  background: #ffe5e5;
+  padding: 10px;
+}
+
+.report-box {
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+}
